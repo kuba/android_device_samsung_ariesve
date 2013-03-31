@@ -9,8 +9,8 @@ $(call inherit-product, $(LOCAL_PATH)/full_ariesve.mk)
 
 PRODUCT_RELEASE_NAME := ariesve
 
-CM_BUILDTYPE := ivendor-beta4
-CM_NUMERICAL_VERSION := 0.4.0
+CM_BUILDTYPE := ivendor-release1
+CM_NUMERICAL_VERSION := 1.0.0
 
 $(call inherit-product, $(LOCAL_PATH)/ota-update-center.mk)
 
